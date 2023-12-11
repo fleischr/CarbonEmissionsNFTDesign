@@ -12,6 +12,8 @@ Ability to mint will be constrained by the block timestamp
 
 ## Emissions NFTS
 
+Emissions NFTs are minted as token-bound accounts with [ERC-6551](https://eips.ethereum.org/EIPS/eip-6551)
+
 A from-date timestamp and to-date timestamp will be required at mininum for every mint
 
 The emissions NFT may be indicative of one or more business activities or transactions
@@ -19,6 +21,8 @@ The emissions NFT may be indicative of one or more business activities or transa
 Level of granularity in emissions reporting/tokenization is up to the organization to decide. Generally, its assumed organizations will increase granularity over time.
 
 Emissions NFTs may have hierarchical relations to another for either cross-organizational scope 3 emissions
+
+Emissions NFT as a token bound account can hold balances of other tokens - used to represent the present cost/profit or the financial liability/asset of the given set of carbon emissions
 
 ## Alternate representations
 
