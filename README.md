@@ -26,9 +26,9 @@ Emissions NFT as a token bound account can hold balances of other tokens - used 
 
 ## Alternate representations
 
-Every emissions NFT have alternate verifiable representations as decentralized id (DID) documents and zero knowledge proofs
+Every emissions NFT have alternate verifiable representations as verifiable credential (VC) documents and zero knowledge proofs
 
-The emissions NFT shall provide functions that offer on-chain verifiability for the DID documents and zero knowledge proofs
+The emissions NFT shall provide functions that offer on-chain verifiability for the VC documents and zero knowledge proofs
 
 Alternate representations may offer additional data characteristics not represented in the NFT itself
 
