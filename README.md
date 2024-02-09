@@ -1,5 +1,5 @@
 # CarbonEmissionsNFTDesign
-Emissions NFT Design Docs
+Carbon Emissions NFT Design Docs
 
 ## Organization Smart Contract
 Organizations deploy a smart contract with a standard interface and mint NFTs from it to represent scope 1, 2, and 3 emissions
