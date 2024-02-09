@@ -1,4 +1,4 @@
-# EmissisionsNFTDesign
+# CarbonEmissionsNFTDesign
 Emissions NFT Design Docs
 
 ## Organization Smart Contract
