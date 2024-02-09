@@ -34,6 +34,8 @@ Alternate representations may offer additional data characteristics not represen
 
 Alternate representations can be persisted permanently on blockchains (ex: IPFS, transactions hashes) or other data sources - but this is not required
 
+Overall - alternate representations are meant to conform to the Axiomatic Data Assets
+
 ## Emissions measurement and verification
 
 Emissions are measured as CO2 equivalent in metric tonnes
@@ -44,8 +46,14 @@ Emissions are measured as CO2 equivalent in metric tonnes
 
 ## Common, but optional extensions
 Precision -- indicates the preferred level of mathematical precision of measure meant
+
 Nabla -- indicates the assumed level of emissions for the given time period and business activity
+
 Delta -- documents expected an actual change in emissions
+
 Parents -- Publically verified high level emissions NFTS (e.g. related scope 1 emissions to scope 3 emissions)
+
 Children -- Publically verified high level emissions NFTS (e.g. related scope 3 emissions to scope 1 emissions)
 
+## Additional References
+See (Additional References)[./REFERENCES.md]
