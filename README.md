@@ -6,13 +6,11 @@ Organizations deploy a smart contract with a standard interface and mint NFTs fr
 
 The whitelist to mint NFTs from the contract will belong to members of the organizations
 
-By default, the minting contract can accommodate an unlimited number of mints
-
-Ability to mint will be constrained by the block timestamp
+By default, the minting contract can accommodate an unlimited number of mints - but the ability to mint will be constrained by the block timestamp
 
 ## Emissions NFTS
 
-Emissions NFTs are minted as token-bound accounts with [ERC-6551](https://eips.ethereum.org/EIPS/eip-6551)
+Emissions NFTs ideally are minted as token-bound accounts with [ERC-6551](https://eips.ethereum.org/EIPS/eip-6551) that are further anchored to a DID registry that supercede the organization. That is the ultimate design goal - however prototype development may yet use typical ERC721 or storage smart contract templates as a starter.
 
 A from-date timestamp and to-date timestamp will be required at mininum for every mint
 
@@ -34,7 +32,7 @@ Alternate representations may offer additional data characteristics not represen
 
 Alternate representations can be persisted permanently on blockchains (ex: IPFS, transactions hashes) or other data sources - but this is not required
 
-Overall - alternate representations are meant to conform to the Axiomatic Data Assets
+Overall - alternate representations are meant for emissions data conform to the Axiomatic Data Assets specification
 
 ## Emissions measurement and verification
 
@@ -42,18 +40,17 @@ Emissions are measured as CO2 equivalent in metric tonnes
 
 1 milligram is to be the smallest possible unit of precision emissions measurement (e.g. 0.000000001). Generally measurements with precision within 1 kilogram are still considered excellent.
 
-3rd parties can add quality rating signatures, referencing specific alternate representations. The smart contract can automatically verify the signatures of the identities -while the zero knowledge proofs can offer verifiability of the "off-chain" data itself.
+3rd parties can add quality rating signatures, referencing specific alternate representations (e.g. a verfied credential, IPFS data store, ZKP). The smart contract is meant support a maximum level of verifiability within given privacy constraints
 
-## Common, but optional extensions
-Precision -- indicates the preferred level of mathematical precision of measure meant
+## Carbon Emissions Data Verifier workflow
 
-Nabla -- indicates the assumed level of emissions for the given time period and business activity
+An independent 3rd party verifier may access an organization's carbon emissions data for auditing per the GHG Protocol standard
 
-Delta -- documents expected an actual change in emissions
-
-Parents -- Publically verified high level emissions NFTS (e.g. related scope 1 emissions to scope 3 emissions)
-
-Children -- Publically verified high level emissions NFTS (e.g. related scope 3 emissions to scope 1 emissions)
+Using a DID - the carbon auditor may produce and digitally sign their attestations of the quality of the organizations emissions mitigation effors and the data thereof. These attestations can be maintained at least in part by the NFT smart contract - with additional supplements through alternate representations (Verified Credentials, zero knowledge proofs) and other conventional data stores (private databases, cloud storage)
 
 ## Additional References
-See (Additional References)[./REFERENCES.md]
+See [Additional References](./REFERENCES.md)
+
+## Demo implementations
+App level : GHG Template App on SAP BTP
+Smart contract level : VeChain Microgrant
