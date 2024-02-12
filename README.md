@@ -22,13 +22,13 @@ Emissions NFTs may have hierarchical relations to another for either cross-organ
 
 Emissions NFT as a token bound account can hold balances of other tokens - used to represent the present cost/profit or the financial liability/asset of the given set of carbon emissions
 
-## Alternate representations
+## Emissions NFT Alternate representations
 
 Every emissions NFT have alternate verifiable representations as verifiable credential (VC) documents and zero knowledge proofs
 
 The emissions NFT shall provide functions that offer on-chain verifiability for the VC documents and zero knowledge proofs
 
-Alternate representations may offer additional data characteristics not represented in the NFT itself
+Alternate representations may offer additional data characteristics not represented in the NFT itself that are otherwise likely to be found in private data storage (ex: SAP)
 
 Alternate representations can be persisted permanently on blockchains (ex: IPFS, transactions hashes) or other data sources - but this is not required
 
@@ -48,9 +48,16 @@ An independent 3rd party verifier may access an organization's carbon emissions 
 
 Using a DID - the carbon auditor may produce and digitally sign their attestations of the quality of the organizations emissions mitigation effors and the data thereof. These attestations can be maintained at least in part by the NFT smart contract - with additional supplements through alternate representations (Verified Credentials, zero knowledge proofs) and other conventional data stores (private databases, cloud storage)
 
+## Advanced capabilities
+The usage of token bound accounts is meant to support multiple token types which may compose the GHG summary overall
+
 ## Additional References
 See [Additional References](./REFERENCES.md)
 
 ## Demo implementations
 App level : GHG Template App on SAP BTP
+
 Smart contract level : VeChain Microgrant
+
+## Contributors
+Ryan Fleischmann
