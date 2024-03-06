@@ -55,9 +55,9 @@ The usage of token bound accounts is meant to support multiple token types which
 See [Additional References](./REFERENCES.md)
 
 ## Demo implementations
-App level : GHG Template App on SAP BTP
+[App level : GHG Sample App on SAP CAP BTP](https://github.com/fleischr/GHGReportSample)
 
-Smart contract level : VeChain Microgrant
+[Smart contract level : VeChain Microgrant](https://github.com/fleischr/VechainCarbonEmissionsNFT.git)
 
 ## Contributors
 Ryan Fleischmann
