@@ -48,6 +48,10 @@ An independent 3rd party verifier may access an organization's carbon emissions 
 
 Using a DID - the carbon auditor may produce and digitally sign their attestations of the quality of the organizations emissions mitigation effors and the data thereof. These attestations can be maintained at least in part by the NFT smart contract - with additional supplements through alternate representations (Verified Credentials, zero knowledge proofs) and other conventional data stores (private databases, cloud storage)
 
+## Scope 3 Verification Workflow
+
+As organizations attempt to verify their scope 3 emissions, they can forward verification requests to another organization's smart contract with reference to their scope 1 emissions NFT
+
 ## Advanced capabilities
 The usage of token bound accounts is meant to support multiple token types which may compose the GHG summary overall
 
