@@ -50,7 +50,11 @@ Using a DID - the carbon auditor may produce and digitally sign their attestatio
 
 ## Scope 3 Verification Workflow
 
-As organizations attempt to verify their scope 3 emissions, they can forward verification requests to another organization's smart contract with reference to their scope 1 emissions NFT
+As organizations attempt to verify their scope 3 emissions, they can forward verification requests to another organization's smart contract with reference to the other orgs scope 1 emissions NFT. 
+This would be information shared off chain - such as in a barcode or invoice. 
+
+The scope 1 organization can respond to the request by re-enlisting their scope 1 verifiers to cross check the scope 3 token data of the other org. 
+
 
 ## Advanced capabilities
 The usage of token bound accounts is meant to support multiple token types which may compose the GHG summary overall
